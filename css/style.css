@@ -17,5 +17,20 @@ html{
     scroll-behavior: smooth;
 }
 body{
-background-color: var(--bg);
+background-color: var(--bgcolor);
 }
+/* start header */
+/* heade background and settings */
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+
+/* end of header  */
