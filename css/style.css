@@ -19,6 +19,10 @@ html{
 body{
 background-color: var(--bgcolor);
 }
+.container{
+    width: 70%;
+    margin: auto;
+}
 /* start header */
 /* heade background and settings */
 header {
@@ -30,6 +34,12 @@ header {
     background-position: center center;
 }
 
+/* start top side of header  */
+.nav-navi{
+    
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
