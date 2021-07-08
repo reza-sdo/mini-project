@@ -1,5 +1,21 @@
+/* reset css */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+/* mack var */
+:root{
+    --blubut: #3dffd2;
+    --bgcolor: #fff;
+    --text-in-dark: #e7e7e7;
+    --text-in-light: #181818;
+
+}
+/* html set */
+html{
+    scroll-behavior: smooth;
+}
+body{
+background-color: var(--bg);
 }
