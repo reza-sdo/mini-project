@@ -6,13 +6,14 @@
 }
 /* mack var */
 :root{
-    --blubut: #3dffd2;
+    --blubut: #3cebc2;
     --bgcolor: #fff;
-    --text-in-dark: #e7e7e7;
+    --text-in-dark: #f6f6f6;
     --text-in-light: #181818;
 
 }
 /* html set */
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica&display=swap');
 html{
     scroll-behavior: smooth;
 }
@@ -33,6 +34,8 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    display: flex;
+    flex-direction: column;
 }
 
 /* start top side of header  */
@@ -62,11 +65,52 @@ header {
 .nav-ul .home-but {
     color: var(--blubut);
 }
+
 .nav-ul a:hover{
     background-color: #fff;
-    color: #8802f5;
+    color: #520095;
     border-radius: 10px;
 }
 
-
+/* end of top side of header  */
+/* start main header */
+.main-header{
+    display: flex;
+    color: var(--text-in-dark);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+.titel{
+    font-family: 'IM Fell Double Pica', serif;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.line{
+    background-color: var(--blubut);
+    width: 100px;
+    height: 2px;
+    border-radius: 50%;
+    margin-bottom:30px;
+    
+}
+.texes{
+    line-height: 25px;
+    margin-bottom:50px;
+}
+.but-link a{
+    text-decoration: none;
+    color: var(--blubut);
+    border: 1px solid var(--blubut);
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+.but-link a:hover{
+    background-color: var(--bgcolor);
+    color: #520095;
+    border: none;
+}
 /* end of header  */
