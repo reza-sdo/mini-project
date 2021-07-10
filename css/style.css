@@ -9,7 +9,7 @@
     --blubut: #3cebc2;
     --bgcolor: #fff;
     --text-in-dark: #f6f6f6;
-    --text-in-light: #181818;
+    --text-in-light: #202020;
 
 }
 /* html set */
@@ -23,7 +23,7 @@ font-family: Arial, Helvetica, sans-serif;
 }
 .container{
     width:75%;
-    margin: auto;
+    margin: 0 auto;
 }
 /* start header */
 /* heade background and settings */
@@ -114,3 +114,50 @@ header {
     border: none;
 }
 /* end of header  */
+/* start main1  */
+.main-1{
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+}
+/* start main 1-1 */
+.main-1-1{
+    height: 45%;
+    display: grid;
+    background-color: var(--bgcolor);
+    grid-template-columns: 40% 60%;
+}
+.main-1-1-logo {
+    margin: auto;
+}
+.main-1-texes{
+    padding: 40px 0;
+    /* background-color: steelblue; */
+    color: var(--text-in-light);
+}
+.main-1-1-h2{
+    text-transform: uppercase;
+    word-spacing: 10px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+.main-1-texes .texes{
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+    line-height: 20px;
+    font-weight: 400px;
+    
+}
+.main-1-but-link{
+    margin-top: 2rem;
+}
+.main-1-but-link a{
+    text-decoration: none;
+    color: var(--blubut);
+    border: 1px solid var(--blubut);
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+.main-1-but-link a:hover{
+    
+}
