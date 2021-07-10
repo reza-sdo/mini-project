@@ -37,6 +37,7 @@ header {
     background-position: center center;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 /* start top side of header  */
@@ -113,6 +114,19 @@ header {
     background-color: var(--bgcolor);
     color: var(--perp);
     border: none;
+}
+.linkto{
+    align-self: center;
+    justify-self: flex-end;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 15px;
+    position: absolute;
+    bottom: 20px;
+}
+.linkto a {
+    color: var(--text-in-dark);
+    text-decoration: none;
 }
 /* end of header  */
 /* start main1  */
