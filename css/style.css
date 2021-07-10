@@ -133,11 +133,12 @@ header {
 .main-1{
     width: 100vw;
     height: 100vh;
-    background-color: red;
+    display: grid;
+    grid-template-rows: 40% 60%;
 }
 /* start main 1-1 */
 .main-1-1{
-    height: 45%;
+    
     display: grid;
     background-color: var(--bgcolor);
     grid-template-columns: 40% 60%;
@@ -179,3 +180,45 @@ header {
     border: none;
 }
 /* end main-1-1  */
+/* start main 1-2  */
+.main-1-2 {
+    background-image: url(../img/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.main-1-2-ap{
+    color: var(--text-in-dark);
+    font-size: 4rem;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.main-1-2 .texes {
+    color: var(--text-in-dark);
+    text-align: center;
+}
+.main-1-2-config{
+    display: block;
+    
+    
+}
+.main-1-2-conpic {
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    
+}
+.captions {
+    text-align: center;
+    margin-top: 10px;
+    color: var(--text-in-dark);
+    font-size: 0.8rem;
+}
+.main-1-2-conname{
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+/* end main-1  */
