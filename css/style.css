@@ -10,6 +10,7 @@
     --bgcolor: #fff;
     --text-in-dark: #f6f6f6;
     --text-in-light: #202020;
+    --perp: #3A2E60 ;
 
 }
 /* html set */
@@ -68,7 +69,7 @@ header {
 
 .nav-ul a:hover{
     background-color: #fff;
-    color: #520095;
+    color: var(--perp);
     border-radius: 10px;
 }
 
@@ -110,7 +111,7 @@ header {
 }
 .but-link a:hover{
     background-color: var(--bgcolor);
-    color: #520095;
+    color: var(--perp);
     border: none;
 }
 /* end of header  */
@@ -159,5 +160,7 @@ header {
     text-transform: uppercase;
 }
 .main-1-but-link a:hover{
-    
+    background-color: var(--perp);
+    color: var(--text-in-dark);
+    border: none;
 }
