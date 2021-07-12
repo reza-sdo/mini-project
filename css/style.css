@@ -229,18 +229,87 @@ header {
     margin-bottom: 5px;
 }
 /* end main-1  */
+/* start main 2 */
+
 .main-2 {
-    background-color: red;
-    
-}
-
-
-
-.logos{
+    /* background-color: rgb(87, 63, 63); */
     display: grid;
     grid-template-columns: 50% 50%;
+    height: 80vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+/* start main 2 left side*/
+.main-2-forms{
+    padding: 50px 0;
+}
+.forms-titel{
+    /* text-align: center; */
+    margin-bottom: 30px;
+    color: var(--text-in-light);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+#forms{
+    display: flex;
+    flex-direction: column;
+}
+#forms .text-a{
+    margin-bottom: 10px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    padding: 10px;
+    outline:none;
+    box-shadow: 1px 1px 5px #949494;
+    border-radius: 4px;
+}
+
+.text-area {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 150px;
+    border: none;
+    padding: 10px;
+    outline:none;
+    box-shadow: 1px 1px 5px #949494;
+    border-radius: 4px;
+ }
+ .sub-but{
+    width: 100%;
+    height: 50px;
+    border: 1px solid var(--blubut) ;
+    padding: 10px;
+    outline:none;
+    box-shadow: 1px 1px 5px var(--blubut);
+    border-radius: 4px;
+    background-color: #fff;
+    color: var(--blubut);
+    cursor: pointer;
+    font-weight: 600;
+}
+/* end left side  */
+.clients{
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    height: 81%;
+    
+}
+.clint-titel{
+    margin-bottom: 30px;
+    color: var(--text-in-light);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    
+}
+.logos{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(150px, 1fr));
+    grid-gap: 40px;
 }
 .lo img{
-    width: 100px;
+    width: 150px;
     
 }
