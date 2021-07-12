@@ -229,3 +229,18 @@ header {
     margin-bottom: 5px;
 }
 /* end main-1  */
+.main-2 {
+    background-color: red;
+    
+}
+
+
+
+.logos{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.lo img{
+    width: 100px;
+    
+}
