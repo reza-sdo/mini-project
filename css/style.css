@@ -384,7 +384,7 @@ footer{
     
 }
 
-@media (max-width: 908px){
+@media (max-width: 651px){
     .logos img{
         width: 100px;
         
@@ -394,8 +394,6 @@ footer{
         align-items: center;
     
     }
-}
-@media (max-width: 480px){
     .nav-ul{
         display: none;
     }
@@ -467,7 +465,13 @@ footer{
 
     
 }
-@media (min-width: 481px) and (max-width: 768px){
+@media (min-width: 651px ) and (max-width: 768px ){
+    
+    .clients{
+        justify-content: center;
+        align-items: center;
+    
+    }
     .nav-ul{
         display: none;
     }
@@ -477,5 +481,79 @@ footer{
     .container{
         width:85%;
         margin: 0 auto;
+    }
+    .logo img {
+        width: 7rem;
+        margin-top:5px;
+
+    }
+    .titel{
+        font-size: 1.8rem;
+    }
+    .header-texes{
+        line-height: 20px;
+    }
+    .main-1{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        /* grid-template-columns: auto; */
+    }
+    .main-1-1{
+        /* grid-template-columns: auto;
+        grid-template-rows: 300px 800px; */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 20px;
+        height: 100vh;
+
+    }
+    .main-1-but-link {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+    }
+    .main-1-2{
+        height: 100vh;
+    }
+    .main-2{
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .logos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    footer{
+        height: auto;
+        padding: 20px;
+        
+    }
+    .f-top-side{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .fo-2 h3, .fo-3 h3{
+        margin-top: 30px;
+    }
+
+}
+@media (min-width: 768px ) and (max-width: 907px ){
+    .lo img{
+        width: 90px;
+    }
+    .main-1-1-logo{
+        width: 100px;
+        
+    }
+    
+}
+@media (max-height: 640px ){
+    .main-1, .main-1-1, .main-2, footer{
+        height: auto;
     }
 }
