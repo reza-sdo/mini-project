@@ -553,14 +553,24 @@ footer{
     
 }
 @media (max-height: 640px ){
-    .main-1, .main-1-1, .main-2, footer, header{
+    .main-1, .main-1-1, .main-2, footer {
         height: auto;
         
     }
     .titel{
         font-size: 1.5rem;
+        margin-bottom: 5px;
     }
     .header-texes{
         font-size: 0.8rem;
+    }
+    .line{
+        margin-bottom: 5px;
+    }
+    .header{
+        height: 100vh;
+    }
+    ..linkto{
+
     }
 }
