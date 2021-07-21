@@ -570,7 +570,8 @@ footer{
     .header{
         height: 100vh;
     }
-    ..linkto{
-
+    .linkto{
+        bottom: 5px;
+        left: 20px;
     }
 }
