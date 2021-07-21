@@ -553,7 +553,7 @@ footer{
     
 }
 @media (max-height: 640px ){
-    .main-1, .main-1-1, .main-2, footer{
+    .main-1, .main-1-1, .main-2, footer, header{
         height: auto;
     }
 }
